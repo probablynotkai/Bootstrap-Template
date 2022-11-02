@@ -15,6 +15,7 @@ function generatePopUp(alertHeader, alertContent) {
 	return myAlert;
 }
 
+let spamInterval;
 function load() {
 	let popUp = generatePopUp("Welcome to the website", "This is simply a template to demonstrate Bootstrap 4 skills.");
 	document.body.appendChild(popUp);
