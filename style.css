@@ -1,0 +1,27 @@
+#bsImage {
+	transition: transform 0.3s;
+}
+
+#bsImage:hover {
+	transform: scale(1.15);
+}
+
+.work {
+	transition: transform 0.3s;
+}
+
+.work:hover {
+	transform: scale(1.05);
+}
+
+.img {
+	transition: transform 0.3s;
+}
+
+.img:hover {
+	transform: scale(1.1);
+}
+
+a:hover {
+	cursor: pointer;
+}
